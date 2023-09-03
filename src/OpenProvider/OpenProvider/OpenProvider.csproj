@@ -1,4 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
+   <ItemGroup>
+    <None Include="..\..\..\LICENSE" Pack="true" PackagePath="\">
+      <Link>LICENSE</Link>
+    </None>
+    <None Include="..\..\..\README.md" Pack="true" PackagePath="\">
+      <Link>README.md</Link>
+    </None>
+  </ItemGroup>
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -9,13 +17,15 @@
     <AssemblyName>Muljin.OpenProvider</AssemblyName>
     <Company>Muljin Pte. Ltd.</Company>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Muljin/OpenProvider</RepositoryUrl>
     <RepositoryType></RepositoryType>
     <Title>OpenProvider Client Library</Title>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
+  
 </Project>
