@@ -4,10 +4,15 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Company>Muljin Pte. Ltd.</Company>
     <AssemblyName>Muljin.OpenProvider</AssemblyName>
-    <Version>0.0.1</Version>
+    <Authors>Mahmoud Swehli</Authors>
+    <AssemblyName>Muljin.OpenProvider</AssemblyName>
+    <Company>Muljin Pte. Ltd.</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/Muljin/OpenProvider</RepositoryUrl>
+    <RepositoryType></RepositoryType>
     <Title>OpenProvider Client Library</Title>
+    <Version>0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
